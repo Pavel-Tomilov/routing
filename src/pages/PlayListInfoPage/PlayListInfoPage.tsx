@@ -27,8 +27,8 @@ export function PlayListInfoPage() {
       </div>
       <hr />
       <div className="infoPage__list">
-        {songsList.songs.map((song) => (
-          <span className="infoPage__song" key={song}>
+        {songsList.songs.map((song, i) => (
+          <span className="infoPage__song" key={i}>
             - {song}
           </span>
         ))}

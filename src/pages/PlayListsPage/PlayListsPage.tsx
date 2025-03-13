@@ -11,6 +11,7 @@ export function PlayListsPage() {
     const { value } = event.target;
     setSearchParams({
       searchGenre: value.toLowerCase(),
+     
     });
   };
 
@@ -18,6 +19,7 @@ export function PlayListsPage() {
     const { value } = event.target;
     setSearchParams({
       searchName: value.toLowerCase(),
+      
     });
   };
 
